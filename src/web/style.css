@@ -1,0 +1,110 @@
+html, body
+{
+    font-family: 'Lato', sans-serif;
+    background-color: #b9d6f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #0f6aba;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+#menu {
+    display: inline-block;
+    line-height: 200%;
+}
+
+#menu > li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px dashed black;
+}
+
+#menu > li:first-child {
+    border-left: 1px dashed black;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: black;
+}
+
+#spacer {
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    height: 1200px;
+}
+
+.content {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    text-align: center;
+}
+
+.gallery {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.tile {
+    width: 200px;
+    height: 125px;
+    border: solid 2px #0f6aba;
+    display: inline;
+}
+
+#form {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    text-align: center;
+}
+
+.miejscowosc {
+    padding: 40px 30px 40px 40px;
+}
+
+.miejscowosc a {
+    text-decoration: none;
+    color: white;
+}
+
+.miejscowosc img {
+    height: 200px;
+    width: 125px;
+    float: left;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#dialog {
+    color: white;
+    background-color: #b9d6f0;
+    border: 2px solid #0f6aba;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #0f6aba;
+    padding: 5px;
+    color: white;
+}
